@@ -1,0 +1,178 @@
+html {
+  font: 100%/1.15 Didot, serif;
+}
+
+header {
+  font-family: Didot, serif;
+  font-weight: bold
+  line-height: 1;
+}
+
+div {text-align: center;}
+
+body {
+  max-width: 60em;
+  background-color: #DB9CBE;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure.hero {
+  padding-left: 2rem;
+  text-align: left;
+  font-family: Didot, serif;
+}
+
+img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+/* lists */
+dt {
+  color: #581845;
+}
+
+dl,
+ol,
+ul {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+dd {
+  margin-left: 0;
+}
+
+ol,
+ul {
+  padding-left: 1.5rem;
+}
+
+/* hero image */
+
+.hero {
+ max-width: 32em;
+}
+
+/*navigation / menu */
+
+nav ul {
+  list-style: circle;
+  padding-left: 2rem;
+}
+
+nav li {
+margin-top: 1rem;
+
+}
+
+/* recipe lists */
+
+.info dt {
+  margin-top: 1rem;
+}
+
+.info dd {
+  margin-top: .5rem;
+}
+
+.list {
+  list-style-position: inside;
+  padding-left: 0;
+  border-top: 1px dashed #000;
+  margin-top: 1rem dashed #000;
+  list-style: none;
+}
+
+.list li{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  list-style: none;
+}
+
+.list li:first-child {
+  border-top: 2;
+}
+
+
+body {
+  font-size: 125%;
+}
+
+p {
+  color: #581845;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  line-height: 1.5;
+  font-size: 1.2em;
+  font-family: Didot, serif;
+}
+
+#author p {
+  color: #000;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+  font-family: Didot, serif;
+  font-size: 2em;
+}
+
+h3 {
+  font-family: Didot, serif;
+  font-size: 2em;
+}
+
+h4 {
+  font-family: Didot, serif;
+  font-size: 1em;
+}
+
+h5 {
+  font-family: Didot, serif;
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 1.2em;
+  text-align: center;
+  color: #581845;
+  font-family: Didot, serif;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+p.title {
+  font-weight: bold;
+  font-family: Didot, serif;
+}
+
+a {
+  color: #7737bd;
+}
+
+a:hover {
+  color: #FAEEBC;
+}
+
+
+img.headshot {
+  max-width: 6em;
+  vertical-align: middle;
+  border: 1px solid #eee;
+  border-radius: 60%;
+  filter: grayscale(100%);
+  margin-right: .5rem;
+}
+
+@media (min-width:60em)
+
+}

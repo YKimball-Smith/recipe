@@ -2,10 +2,12 @@ html {
   font: 100%/1.15 Didot, serif;
 }
 
+@media (min-width:60em) {
+
 header {
   font-family: Didot, serif;
-  font-weight: bold
-  line-height: 1;
+  font-weight: bold;
+  line-height: 1rem;
 }
 
 div {text-align: center;}
@@ -18,10 +20,11 @@ body {
   margin-right: auto;
 }
 
-figure.hero {
-  padding-left: 2rem;
-  text-align: left;
+.hero figcaption {
   font-family: Didot, serif;
+  text-align: center;
+  padding-bottom: 2rem;
+  border-bottom: 1px dashed #000;
 }
 
 img {
@@ -54,7 +57,7 @@ ul {
 /* hero image */
 
 .hero {
- max-width: 32em;
+  text-align: center;
 }
 
 /*navigation / menu */
@@ -62,11 +65,12 @@ ul {
 nav ul {
   list-style: circle;
   padding-left: 2rem;
+  padding-bottom: 1rem;
+  font-family: Didot, serif;
 }
 
 nav li {
 margin-top: 1rem;
-
 }
 
 /* recipe lists */
@@ -83,19 +87,16 @@ margin-top: 1rem;
   list-style-position: inside;
   padding-left: 0;
   border-top: 1px dashed #000;
-  margin-top: 1rem dashed #000;
-  list-style: none;
+  margin-top: 1px dashed #000;
 }
 
 .list li{
   padding-top: 1rem;
   padding-bottom: 1rem;
-
-  list-style: none;
 }
 
 .list li:first-child {
-  border-top: 2;
+  border-top: 2rem;
 }
 
 
@@ -124,19 +125,24 @@ h1 {
 h2 {
   font-family: Didot, serif;
   font-size: 2em;
+  padding-top: .5em;
 }
 
 h3 {
   font-family: Didot, serif;
   font-size: 2em;
+  padding-top: .5em;
 }
 
 h4 {
+  border-top: 1px dashed #000;
+  padding-top: 2em;
   font-family: Didot, serif;
   font-size: 1em;
 }
 
 h5 {
+  padding-top: 1em;
   font-family: Didot, serif;
   font-size: 1em;
 }
@@ -156,13 +162,12 @@ p.title {
 }
 
 a {
-  color: #7737bd;
+  color: #662548;
 }
 
 a:hover {
   color: #FAEEBC;
 }
-
 
 img.headshot {
   max-width: 6em;
@@ -172,7 +177,5 @@ img.headshot {
   filter: grayscale(100%);
   margin-right: .5rem;
 }
-
-@media (min-width:60em)
 
 }
